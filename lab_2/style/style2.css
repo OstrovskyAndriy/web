@@ -1,0 +1,36 @@
+table, td, th {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  .table thead th{
+    background-color:  #dae1f8;
+    text-align: center;
+  }
+  .table tfoot th{
+    background-color: #5776b1;
+    text-align: right;
+    color: #fff;
+  }
+
+  hr{
+    border: 1px dotted black;
+  }
+ 
+  .lesson{
+    text-align: left;
+  }
+  .day{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 20px;
+    background-color: #dae1f8;
+  }
+  .greyCol{
+    background-color: #dae1f8;
+  }
+  .greenCol{
+    background-color: rgb(162, 197, 162);
+    
+  }
