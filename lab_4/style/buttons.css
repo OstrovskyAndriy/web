@@ -1,0 +1,21 @@
+.deleteButton{
+    width: 90px;
+    height: 30px;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.editButton{
+    width: 70px;
+    height: 30px;
+    border-color: rgb(0, 13, 255);
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.deleteButton:hover{
+    background-color:rgba(255, 0, 0, 0.399);
+}
+.editButton:hover{
+    background-color: rgba(0, 30, 255, 0.515);
+}
