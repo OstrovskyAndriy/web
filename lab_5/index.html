@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <div class="buttonToOpen">
+        <a href="#modal">Відкрити</a>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="content">
+            <div class="modal-header">
+                <h1>Modem options</h1>
+                <a href="">&times</a>
+            </div>
+<hr>
+            <div class="modal-content">
+                Виробник модель
+                <input type="text" placeholder="введіть модель та виробника">
+                Тип (Wi Мережева карта GbE)
+                <input type="text" placeholder="введіть тип">
+                Інтерфейс підключення
+
+                <label for="interaface" >
+                    <select name="interface_type" id="interface_type" class="interface">
+                        <option value="usb">USB</option>
+                        <option value="pci">PCI-E</option>
+                    </select>
+                </label>
+
+                Максимальна швидкість з'єднання, Мбіт/с
+                <input type="text">
+                Розміри, мм
+                <input type="text" >
+                фото
+                <input type="file" class="image">
+            </div>
+
+            <div class="button">
+                <button>Ок</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="wrapper">
+        <a href="#demo-modal">Open Demo Modal</a>
+    </div>
+    
+    <div id="demo-modal" class="modal">
+        <div class="modal__content">
+            <h1>CSS Only Modal</h1>
+    
+            <p>
+                You can use the :target pseudo-class to create a modals with Zero JavaScript. Enjoy!
+            </p>
+    
+            <div class="modal__footer">
+                Made with <i class="fa fa-heart"></i>, by <a href="https://twitter.com/denicmarko" target="_blank">@denicmarko</a>
+            </div>
+    
+            <a href="#" class="modal__close">&times;</a>
+        </div>
+    </div> -->
+</body>
+
+</html>
