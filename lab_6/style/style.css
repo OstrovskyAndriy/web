@@ -1,0 +1,31 @@
+img.left {
+    float: left;
+    margin: 5px 10px 5px 0;
+  }
+
+  img {
+    border: 1px solid black;
+  }
+  
+.header{
+    background-color: rgb(90, 84, 130);
+    color: white;
+}
+
+.fotobaraban{
+    border: 1px solid black;
+    width: 201px;
+    height: 230px;
+    float: left;
+    text-align: center;
+    margin-right: 7px;
+}
+
+.zar_wal{
+    border: 1px solid black;
+    width: 201px;
+    height: 185px;
+    float: left;
+    text-align: center;
+    margin-right: 7px;
+}
