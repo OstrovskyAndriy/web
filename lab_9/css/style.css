@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+
+.block1 {
+  background-color: rgb(19, 107, 184);
+  height: 100px;
+  text-align: center;
+}
+
+.button1:hover {
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+.button1:active {
+  -webkit-transition: 0.9s all;
+  transition: 0.9s all;
+}
