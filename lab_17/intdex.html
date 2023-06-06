@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id='text'>I learning JavaScript events!</p>
+    <div>
+        <button . . . . .>Change style!</button>
+    </div>
+
+    <h1>Remove Element from Dropdown</h1>
+  <select id="dropdown">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+    <option value="option4">Option 4</option>
+  </select>
+  <br>
+  <button onclick="removeSelectedOption()">Remove Selected Option</button>
+
+  <h1>Button Events</h1>
+  <button id="myButton" onclick="showPressedMessage()" onmouseover="showMouseOnMessage()" onmouseout="showMouseNotOnMessage()">Click Me!</button>
+
+  <h1>Window Resize Tracker</h1>
+  <p id="dimensions">Width: <span id="width"></span>px, Height: <span id="height"></span>px</p>
+
+  <h1>Dynamic Dropdown</h1>
+  <select name="country" id="country" onchange="populateCities()">
+    <option value="ger">Germany</option>
+    <option value="usa">USA</option>
+    <option value="ukr">Ukraine</option>
+  </select>
+
+  <select name="cities" id="cities"></select>
+  <p id="selected"></p>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>

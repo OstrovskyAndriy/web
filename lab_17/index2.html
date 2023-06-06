@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Handling Example</title>
+  <style>
+    body {
+      background-color: white;
+    }
+  </style>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var firstButton = document.getElementById('button1');
+      var secondButton = document.getElementById('button2');
+      var thirdButton = document.getElementById('button3');
+      var link = document.getElementById('myLink');
+
+      // Подія при кліку на першу кнопку
+      firstButton.addEventListener('click', function() {
+        document.body.style.backgroundColor = 'blue';
+      });
+
+      // Подія при подвійному кліку на другу кнопку
+      secondButton.addEventListener('dblclick', function() {
+        document.body.style.backgroundColor = 'pink';
+      });
+
+      // Подія при натисненні та утримуванні третьої кнопки
+      thirdButton.addEventListener('mousedown', function() {
+        document.body.style.backgroundColor = 'brown';
+      });
+
+      // Подія при відпусканні третьої кнопки
+      thirdButton.addEventListener('mouseup', function() {
+        document.body.style.backgroundColor = 'white';
+      });
+
+      // Подія при наведенні на лінку
+      link.addEventListener('mouseover', function() {
+        document.body.style.backgroundColor = 'yellow';
+      });
+
+      // Подія при відведенні лінки
+      link.addEventListener('mouseout', function() {
+        document.body.style.backgroundColor = 'white';
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>Event Handling Example</h1>
+  <button id="button1">Button 1</button>
+  <button id="button2">Button 2</button>
+  <button id="button3">Button 3</button>
+  <br>
+  <a id="myLink" href="#">Link</a>
+</body>
+</html>
